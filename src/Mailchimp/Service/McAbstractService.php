@@ -2,11 +2,11 @@
 
 namespace Mailchimp\Service;
 
-use Zend\ServiceManager\ServiceManagerAwareInterface;
-use Zend\ServiceManager\ServiceManager;
-use Zend\EventManager\EventManagerAwareInterface;
-use Zend\EventManager\EventManagerInterface;
-use Zend\EventManager\EventManager;
+use Laminas\ServiceManager\ServiceManagerAwareInterface;
+use Laminas\ServiceManager\ServiceManager;
+use Laminas\EventManager\EventManagerAwareInterface;
+use Laminas\EventManager\EventManagerInterface;
+use Laminas\EventManager\EventManager;
 
 class McAbstractService implements ServiceManagerAwareInterface, EventManagerAwareInterface{
 

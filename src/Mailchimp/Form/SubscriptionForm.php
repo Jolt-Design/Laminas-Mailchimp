@@ -2,9 +2,9 @@
 
 namespace Mailchimp\Form;
 
-use Zend\Form\Element;
-use Zend\Form\Form;
-use Zend\Validator;
+use Laminas\Form\Element;
+use Laminas\Form\Form;
+use Laminas\Validator;
 
 class SubscriptionForm extends Form
 {

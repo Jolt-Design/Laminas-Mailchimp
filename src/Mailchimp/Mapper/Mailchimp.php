@@ -1,9 +1,9 @@
 <?php
 namespace Mailchimp\Mapper;
 
-use Zend\Http\Client;
-use Zend\Http\Request;
-use Zend\Http\Response;
+use Laminas\Http\Client;
+use Laminas\Http\Request;
+use Laminas\Http\Response;
 use Mailchimp\Mapper\Exception\MailchimpException as MailchimpException;
 
 Class Mailchimp implements MailchimpInterface

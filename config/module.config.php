@@ -11,11 +11,11 @@ return array(
     'service_manager' => array(
         'invokables' => array(
             // @todo clean services up, most of these could be just instantiated inside factories
+            'Laminas\Stdlib\Hydrator\ClassMethods' => 'Laminas\Stdlib\Hydrator\ClassMethods',
             'Mailchimp\Mapper\Mailchimp' => 'Mailchimp\Mapper\Mailchimp',
             'Mailchimp\Entity\Subscriber' => 'Mailchimp\Entity\Subscriber',
             'Mailchimp\Entity\MailingList' => 'Mailchimp\Entity\MailingList',
             'Mailchimp\Form\SubscriptionForm' => 'Mailchimp\Form\SubscriptionForm',
-            'Zend\Stdlib\Hydrator\ClassMethods' => 'Zend\Stdlib\Hydrator\ClassMethods'
         ),
         'factories' => array(
             'Mailchimp\Service\Subscriber' => 'Mailchimp\Service\SubscriberServiceFactory',

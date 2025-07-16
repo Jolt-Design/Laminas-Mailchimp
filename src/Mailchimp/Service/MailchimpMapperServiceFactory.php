@@ -2,9 +2,9 @@
 
 namespace Mailchimp\Service;
 
-use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
-use Zend\Stdlib\Hydrator\ClassMethods as Hydrator;
+use Laminas\ServiceManager\FactoryInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
+use Laminas\Stdlib\Hydrator\ClassMethods as Hydrator;
 
 /**
  * Simple authentication provider factory
